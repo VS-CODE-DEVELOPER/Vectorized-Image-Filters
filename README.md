@@ -1,10 +1,10 @@
-# ⚡ Vectorized Image Processing Engine (Pure NumPy)
+#  Vectorized Image Processing Engine (Pure NumPy)
 
 > A high-performance image processing module built with **PySide6** and **pure NumPy**, featuring a custom convolution engine and a full Canny Edge Detection pipeline implemented from first principles.This work focuses specifically on low-level algorithmic implementation using pure NumPy rather than high-level computer vision libraries.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements a **modular, high-performance image processing engine** from scratch in Python.
 
@@ -19,7 +19,7 @@ The module integrates into a GUI-based application via a **plug-in architecture*
 
 ---
 
-## 🧠 Core Features
+##  Core Features
 
 ### 🔹 Custom Canny Edge Detection (From Scratch)
 
@@ -71,7 +71,7 @@ A complete multi-stage pipeline:
 
 ---
 
-## 🚀 UX & System Design Enhancements
+##  UX & System Design Enhancements
 
 To ensure usability during compute-heavy operations:
 
@@ -93,7 +93,7 @@ To ensure usability during compute-heavy operations:
 
 ---
 
-## 🧪 Implemented Operations
+##  Implemented Operations
 
 ### Point Operations
 
@@ -128,7 +128,7 @@ To ensure usability during compute-heavy operations:
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ### 1. Clone the Repository
 
@@ -174,7 +174,7 @@ python main_app.py
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 1. Launch the application
 2. Load an image
@@ -185,7 +185,7 @@ python main_app.py
 
 ---
 
-## ⚡ Performance
+##  Performance
 
 * Optimized using NumPy vectorization
 * LUT-based gamma correction reduces computation cost
@@ -199,7 +199,7 @@ Example:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```text
 UI Layer (PySide6)
@@ -215,7 +215,7 @@ Application Framework
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * Non-max suppression and hysteresis use iterative loops (CPU-bound)
 * Processing runs on main UI thread (can cause temporary UI freeze)
@@ -223,7 +223,7 @@ Application Framework
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 * Full vectorization of Canny pipeline
 * Multi-threading using Qt (`QThread`)
@@ -233,7 +233,7 @@ Application Framework
 
 ---
 
-## 📌 Acknowledgments
+##  Acknowledgments
 
 This project is based on the academic framework provided by my professor:
 https://github.com/guijoe/srh-image-viewer
@@ -247,7 +247,7 @@ The image processing engine, algorithms, and system design have been significant
 - Performance optimizations and UI enhancements  
 ---
 
-## ⭐ Why This Project Stands Out
+##  Why This Project Stands Out
 
 * No reliance on high-level CV libraries
 * Full algorithmic implementation from first principles
