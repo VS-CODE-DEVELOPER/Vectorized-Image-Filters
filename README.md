@@ -128,7 +128,7 @@ To ensure usability during compute-heavy operations:
 
 | Brightness Adjustment (Dark) | Brightness Adjustment (Light) | Solarization |
 |---|---|---|
-| ![Brightness adjustment - dark](<docs/images/Brightness_Adjustmemt_Filter(dark).png>) | ![Brightness adjustment - light](<docs/images/Brightness_Adjustmemt_Filter(light).png>) | ![Solarization filter output](docs/images/Soloarization_Filter.png) |
+| ![Brightness adjustment - dark](<docs/images/Brightness_Adjustment_Filter(dark).png>) | ![Brightness adjustment - light](<docs/images/Brightness_Adjustment_Filter(light).png>) | ![Solarization filter output](docs/images/Soloarization_Filter.png) |
 
 | Gamma Correction (Power Law, Min) | Gamma Correction (Power Law, Max) |
 |---|---|
