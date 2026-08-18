@@ -32,6 +32,8 @@ A complete multi-stage pipeline:
 * Double thresholding
 * Edge tracking via hysteresis
 
+![Canny edge detection output](docs/images/Canny_Edge_Detection_Filter.png)
+
 ---
 
 ### 🔹 Vectorized Processing Engine
@@ -51,6 +53,10 @@ A complete multi-stage pipeline:
 * **Custom 3×3 kernel input**
 * Automatic normalization to prevent overflow
 
+| Box Blur / Smoothing | Sharpening (Laplacian) | Custom Convolution |
+|---|---|---|
+| ![Box blur / smoothing filter output](docs/images/Box_Blur_Smoothing_Filter.png) | ![Sharpening (Laplacian) filter output](<docs/images/Sharpening(Laplician)_Filter.png>) | ![Custom convolution filter output](docs/images/Custom_Convulation_Filter.png) |
+
 ---
 
 ### 🔹 Color Processing Suite
@@ -59,6 +65,18 @@ A complete multi-stage pipeline:
 * RGB channel swapping
 * Channel isolation (R, G, B)
 * Stylized effects (Night Vision, Golden Hour)
+
+| Sepia Tone | Cyanotype | Monochrome |
+|---|---|---|
+| ![Sepia tone filter output](docs/images/Sepia_Tone_Filter.png) | ![Cyanotype filter output](docs/images/Cyanotype_Filter.png) | ![Monochrome filter output](docs/images/Monochrome_Filter.png) |
+
+| Red Channel | Green Channel | Blue Channel |
+|---|---|---|
+| ![Red channel filter output](docs/images/Red_Channel_Filter.png) | ![Green channel filter output](docs/images/Green_Channel_Filter.png) | ![Blue channel filter output](docs/images/Blue_Channel_Filter.png) |
+
+| Color Swap (RGB → BGR) | Night Vision (Green Phosphor) | Golden Hour |
+|---|---|---|
+| ![Color swap (RGB to BGR) filter output](<docs/images/Color_Swap(rgb_to_bgr)_Filter.png>) | ![Night vision (green phosphor) filter output](<docs/images/Night_Vision(Green_Phosphor)_Filter.png>) | ![Golden hour filter output](docs/images/Golden_Hour_Filter.png) |
 
 ---
 
@@ -104,6 +122,18 @@ To ensure usability during compute-heavy operations:
 * Solarization
 * Vignette effect
 
+| Color Inversion (Negative) | Binary Threshold | Vignette Effect |
+|---|---|---|
+| ![Color inversion (negative) filter output](<docs/images/Color_Inversion_(Negative)_Filter.png>) | ![Binary threshold filter output](docs/images/Binary_Threshold_Filter.png) | ![Vignette effect filter output](docs/images/Vignette_Effect_Filter.png) |
+
+| Brightness Adjustment (Dark) | Brightness Adjustment (Light) | Solarization |
+|---|---|---|
+| ![Brightness adjustment - dark](<docs/images/Brightness_Adjumemt_Filter(dark).png>) | ![Brightness adjustment - light](<docs/images/Brightness_Adjumemt_Filter(light).png>) | ![Solarization filter output](docs/images/Soloarization_Filter.png) |
+
+| Gamma Correction (Power Law, Min) | Gamma Correction (Power Law, Max) |
+|---|---|
+| ![Power law (gamma) - min](<docs/images/Power_Law(gamma)_Filter(Min).png>) | ![Power law (gamma) - max](<docs/images/Power_Law(gamma)_Filter(Max).png>) |
+
 ---
 
 ### Spatial Filtering
@@ -133,7 +163,7 @@ To ensure usability during compute-heavy operations:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/VS-CODE-DEVLOPER/Vectorized-Image-Filters.git
+git clone https://github.com/VS-CODE-DEVELOPER/Vectorized-Image-Filters.git
 cd Vectorized-Image-Filters
 ```
 
